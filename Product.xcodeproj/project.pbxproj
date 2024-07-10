@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9585DDFE2C3D30AE00259F30 /* ProductDetailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585DDFD2C3D30AE00259F30 /* ProductDetailApp.swift */; };
+		9585DDFE2C3D30AE00259F30 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585DDFD2C3D30AE00259F30 /* Product.swift */; };
 		9585DE002C3D30AE00259F30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585DDFF2C3D30AE00259F30 /* ContentView.swift */; };
 		9585DE022C3D30AF00259F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9585DE012C3D30AF00259F30 /* Assets.xcassets */; };
 		9585DE052C3D30AF00259F30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9585DE042C3D30AF00259F30 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9585DDFA2C3D30AE00259F30 /* ProductDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9585DDFD2C3D30AE00259F30 /* ProductDetailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailApp.swift; sourceTree = "<group>"; };
+		9585DDFA2C3D30AE00259F30 /* Product.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Product.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9585DDFD2C3D30AE00259F30 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9585DDFF2C3D30AE00259F30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9585DE012C3D30AF00259F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9585DE042C3D30AF00259F30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		9585DDF12C3D30AE00259F30 = {
 			isa = PBXGroup;
 			children = (
-				9585DDFC2C3D30AE00259F30 /* ProductDetail */,
+				9585DDFC2C3D30AE00259F30 /* Product */,
 				9585DDFB2C3D30AE00259F30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		9585DDFB2C3D30AE00259F30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9585DDFA2C3D30AE00259F30 /* ProductDetail.app */,
+				9585DDFA2C3D30AE00259F30 /* Product.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9585DDFC2C3D30AE00259F30 /* ProductDetail */ = {
+		9585DDFC2C3D30AE00259F30 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				9585DDFD2C3D30AE00259F30 /* ProductDetailApp.swift */,
+				9585DDFD2C3D30AE00259F30 /* Product.swift */,
 				9585DDFF2C3D30AE00259F30 /* ContentView.swift */,
 				9585DE012C3D30AF00259F30 /* Assets.xcassets */,
 				9585DE032C3D30AF00259F30 /* Preview Content */,
 			);
-			path = ProductDetail;
+			path = Product;
 			sourceTree = "<group>";
 		};
 		9585DE032C3D30AF00259F30 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9585DDF92C3D30AE00259F30 /* ProductDetail */ = {
+		9585DDF92C3D30AE00259F30 /* Product */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9585DE082C3D30AF00259F30 /* Build configuration list for PBXNativeTarget "ProductDetail" */;
+			buildConfigurationList = 9585DE082C3D30AF00259F30 /* Build configuration list for PBXNativeTarget "Product" */;
 			buildPhases = (
 				9585DDF62C3D30AE00259F30 /* Sources */,
 				9585DDF72C3D30AE00259F30 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ProductDetail;
+			name = Product;
 			productName = ProductDetail;
-			productReference = 9585DDFA2C3D30AE00259F30 /* ProductDetail.app */;
+			productReference = 9585DDFA2C3D30AE00259F30 /* Product.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9585DDF52C3D30AE00259F30 /* Build configuration list for PBXProject "ProductDetail" */;
+			buildConfigurationList = 9585DDF52C3D30AE00259F30 /* Build configuration list for PBXProject "Product" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9585DDF92C3D30AE00259F30 /* ProductDetail */,
+				9585DDF92C3D30AE00259F30 /* Product */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9585DE002C3D30AE00259F30 /* ContentView.swift in Sources */,
-				9585DDFE2C3D30AE00259F30 /* ProductDetailApp.swift in Sources */,
+				9585DDFE2C3D30AE00259F30 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProductDetail/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Product/Preview Content\"";
 				DEVELOPMENT_TEAM = X2J87GT3T5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProductDetail/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Product/Preview Content\"";
 				DEVELOPMENT_TEAM = X2J87GT3T5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9585DDF52C3D30AE00259F30 /* Build configuration list for PBXProject "ProductDetail" */ = {
+		9585DDF52C3D30AE00259F30 /* Build configuration list for PBXProject "Product" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9585DE062C3D30AF00259F30 /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9585DE082C3D30AF00259F30 /* Build configuration list for PBXNativeTarget "ProductDetail" */ = {
+		9585DE082C3D30AF00259F30 /* Build configuration list for PBXNativeTarget "Product" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9585DE092C3D30AF00259F30 /* Debug */,
