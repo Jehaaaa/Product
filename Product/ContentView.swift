@@ -18,7 +18,6 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.bold)
                 .padding(10)
-            
             Text("The iPhone 15 comes with 6.1-inch OLED displsay and Apple Bionic 16 processor. On the Back there is a Dual camera setup with 48MP main camera and 12MP Ultra-wide sensor.")
                 .padding(.horizontal,16)
                 .multilineTextAlignment(.center)
@@ -27,18 +26,16 @@ struct ContentView: View {
                    label: {
                 Text("Add To Cart")
                     .padding(8)
+                    .foregroundStyle(.white)
             })
             .frame(width: 325)
-            .background(.button)
+            .background(.blue)
             .clipShape(RoundedRectangle(cornerRadius: 14))
             .padding(10)
-            .foregroundStyle(.white)
             
         }
         .padding(10)
-        
-        
-        
+
     }
     
 }
